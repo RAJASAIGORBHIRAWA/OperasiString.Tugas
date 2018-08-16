@@ -10,6 +10,16 @@ public class Prak1 {
     {
         String identitas = "Rajasa Igor B. / X-RPL 3 / 33";
         System.out.println("Identitas: " + identitas);
+        
+        String x = "Operasi";
+        System.out.println("isi variabel x: " + x);
+        System.out.println("\""+ x + "\" panjang karakter = "+ x.length());
+        
+        System.out.println("x adalah kosong: " + x.isEmpty());
+        
+        String y = "";
+        System.out.println("isi variabel y : " + y);
+        System.out.println("y adalah kosong : " + y.isEmpty());
    
     }
 }
