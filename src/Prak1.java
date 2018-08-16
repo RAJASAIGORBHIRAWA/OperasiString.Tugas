@@ -31,6 +31,15 @@ public class Prak1 {
         System.out.println("isi variable r : " + r);
         System.out.println("isi x sama dengan r (Case Sensitive) : " + x.equals(r));
         System.out.println("isi x sama dengan r (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
+        
+        System.out.println("perbandingan isi x dengan y : " + x.compareTo(y));
+        System.out.println("perbandingan isi x dengan y (Case Sensitive) : " + x.compareTo(z));
+        System.out.println("perbandingan isi x dengan y (Case Sensitive) : " + x.compareTo(r));
+        System.out.println("isi x sama dengan r (Not Case Sensitive) : " + x.equalsIgnoreCase(r));
+        
+        String s = "Operasi";
+        System.out.println("isi variable s : " + s);
+        System.out.println("Perbandingan isi r dengan (Case Sensitive) : " + r.compareTo(s));
    
     }
 }
