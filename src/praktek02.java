@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+import java.util.Scanner;
 public class praktek02 {
     public static void tampilJudul(String identitas) 
     {
@@ -18,5 +18,20 @@ public class praktek02 {
     
      tampilJudul(identitas);   
     }           
+    
+    private static String tampilInput() 
+    {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Masukkan Kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        
+        return kalimat;
+    }        
+    
+    public static void main(String args) {
+        String kalimat = tampilInput();
+    }
     
 }
