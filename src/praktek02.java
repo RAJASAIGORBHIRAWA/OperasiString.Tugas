@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 public class praktek02 {
     public static void tampilJudul(String identitas) 
     {
