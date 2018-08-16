@@ -11,14 +11,6 @@ public class praktek02 {
         
         System.out.println("\nConvert Kalimat Alay Angka (vokal ke Angka)\n");
     }
-    
-    public static void main(String[] args)
-    {
-     String identitas = "Rajasa Igor Bhirawa / X-RPL 3 / 33";
-    
-     tampilJudul(identitas);   
-    }           
-    
     private static String tampilInput() 
     {
         Scanner scanner = new Scanner(System.in);
@@ -29,9 +21,18 @@ public class praktek02 {
         
         return kalimat;
     }        
+    public static void main(String[] args)
+    {
+     String identitas = "Rajasa Igor Bhirawa / X-RPL 3 / 33";
     
-    public static void main(String args) {
-        String kalimat = tampilInput();
+     tampilJudul(identitas);   
+     
+     String kalimat = tampilInput();
+    }           
+    
+    
     }
     
-}
+   
+    
+
