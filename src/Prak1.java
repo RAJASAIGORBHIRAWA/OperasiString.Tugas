@@ -4,10 +4,7 @@
  * and open the template in the editor.
  */
 
-/**
- *
- * @author ASUS
- */
+import java.util.Locale;
 public class Prak1 {
     public static void main(String[] args) 
     {
